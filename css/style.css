@@ -65,7 +65,7 @@ h4 {
 }
 .block {
   box-shadow: 1px 1px 1px 1px;
-  box: shadow #dee1e3;
+  box-shadow #dee1e3;
   margin-top: 2rem;
 }
 .block div img {
