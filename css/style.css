@@ -36,6 +36,7 @@ main {
 }
 h4 {
   color: rgb(82, 161, 210);
+  margin-bottom: 1em;
 }
 .primoblocco div {
   margin-bottom: 1em;
@@ -48,7 +49,8 @@ h4 {
   padding-bottom: 2em;
 }
 .block {
-  box-shadow: 2px 2px 2px 2px;
+  box-shadow: 1px 1px 1px 1px;
+  box: shadow #dee1e3;
   margin-top: 2rem;
 }
 .block div img {
@@ -56,9 +58,11 @@ h4 {
   margin-right: auto;
   margin-left: auto;
   display: block;
-  magin-bottom: 1em;
+  margin-bottom: 1em;
 }
-
+.block p {
+  margin-bottom: 1em;
+}
 footer {
   background-color: #25a2c3;
 }
