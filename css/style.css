@@ -1,0 +1,14 @@
+/* Your styles here */
+body {
+  margin: 10px auto;
+  max-width: 450px;
+}
+
+header {
+}
+.bottone button {
+  color: orangered;
+}
+.backgroundimg {
+  background-image: url(../images/banner.jpg);
+}
