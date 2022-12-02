@@ -16,6 +16,7 @@ header {
 .bottone button {
   background-color: #e22d0e;
   color: white;
+  border-radius: 0, 5em;
   border-color: transparent;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 2em;
@@ -36,6 +37,15 @@ header {
 main {
   background-color: white;
   text-align: center;
+}
+#testimonianza {
+  font-style: italic;
+}
+.nome {
+  margin-top: 2em;
+}
+#CEO {
+  font-style: italic;
 }
 h4 {
   color: rgb(82, 161, 210);
@@ -74,4 +84,5 @@ h2 {
 }
 footer {
   background-color: #25a2c3;
+  text-align: center;
 }
