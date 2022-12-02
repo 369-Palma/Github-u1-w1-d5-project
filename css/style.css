@@ -89,6 +89,9 @@ footer {
   text-align: center;
   color: white;
 }
+.contatti p{
+  margin:1em;
+}
 .copyright {
   padding-top: 3em;
   font-style: italic;
