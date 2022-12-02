@@ -10,12 +10,13 @@ header {
   width: 100%;
   height: 100%;
   text-align: center;
+  background-color: black;
 }
 .logo div {
   width: 100%;
 }
 .bottone button {
-  background-color: #ff4500;
+  background-color: #e22d0e;
   color: white;
   border-color: transparent;
 }
@@ -36,8 +37,11 @@ main {
 h4 {
   color: rgb(82, 161, 210);
 }
+.primoblocco div {
+  margin-bottom: 1em;
+}
 .quadratorosso {
-  background-color: #ff4500;
+  background-color: #e22d0e;
   color: white;
   text-align: center;
   padding-top: 2em;
@@ -53,4 +57,8 @@ h4 {
   margin-left: auto;
   display: block;
   magin-bottom: 1em;
+}
+
+footer {
+  background-color: #25a2c3;
 }
