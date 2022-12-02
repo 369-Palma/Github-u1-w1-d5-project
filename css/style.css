@@ -12,12 +12,23 @@ header {
   text-align: center;
   background-color: black;
 }
-.logo div {
+.logo img {
+  width: 100px;
+  height: 30px;
+  margin-top: 1em;
+  vertical-align: middle;
 }
+
+h1 {
+  color: rgb(82, 161, 210);
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 .bottone button {
   background-color: #e22d0e;
   color: white;
-  border-radius: 0, 5em;
+  border-radius: 0.5em;
   border-color: transparent;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 2em;
@@ -27,6 +38,11 @@ header {
   background-image: url(../images/banner.jpg);
   margin-top: 2em;
   margin-bottom: 2em;
+  background-size: cover;
+}
+.backgroundimg p{
+  text-size;
+  font-family: "Montserrat", sans-serif;
 }
 .bolla img {
   height: 200px;
@@ -88,6 +104,8 @@ h4 {
 h2 {
   margin-bottom: 2em;
   font-family: "Montserrat", sans-serif;
+
+  text-align: center;
 }
 .block p {
   margin-bottom: 1em;
@@ -99,10 +117,19 @@ footer {
   text-align: center;
   color: white;
 }
+footer a {
+  color: #c8e7f0;
+}
+#contattaci {
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 1.5em;
+}
+font-family: "Montserrat", sans-serif;
 .contatti p {
   margin: 1em;
 }
 .copyright {
   padding-top: 3em;
   font-style: italic;
+  font-family: "Montserrat", sans-serif;
 }
