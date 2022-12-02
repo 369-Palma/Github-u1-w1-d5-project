@@ -67,11 +67,12 @@ h4 {
 }
 .block div {
   border-color: #dee1e3;
+  box-shadow: 1px 1px 1px 1px #dee1e3;
   margin-top: 2rem;
   margin-bottom: 2em;
   padding-bottom: 2em;
 }
-#blocco1 {
+#blocco1 div {
   border-color: #dee1e3;
   border-width: 1em;
 }
