@@ -5,6 +5,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   display: block;
+  font-family: "Montserrat", sans-serif;
 }
 header {
   max-width: 450px;
@@ -37,6 +38,7 @@ header {
 main {
   background-color: white;
   text-align: center;
+  font-family: ;
 }
 #testimonianza {
   font-style: italic;
@@ -63,13 +65,20 @@ h4 {
   padding-bottom: 2em;
   margin-top: 2em;
 }
-.block {
-  box-shadow: 1px 1px 1px 1px;
-  box-shadow #dee1e3;
+.block div {
+  border-color: #dee1e3;
   margin-top: 2rem;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+}
+#blocco1 {
+  border-color: #dee1e3;
+  border-width: 1em;
 }
 .block div img {
   max-width: 450px;
+  width: 350px;
+  height: 250px;
   margin-right: auto;
   margin-left: auto;
   display: block;
@@ -89,8 +98,8 @@ footer {
   text-align: center;
   color: white;
 }
-.contatti p{
-  margin:1em;
+.contatti p {
+  margin: 1em;
 }
 .copyright {
   padding-top: 3em;
