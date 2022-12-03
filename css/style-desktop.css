@@ -80,9 +80,11 @@ h4 {
   margin-bottom: 1em;
   margin-top: 2em;
 }
-.primoblocco div {
-  margin-bottom: 1em;
+
+#primoblocco {
+  display: inline-block;
 }
+
 .quadratorosso {
   background-color: #e22d0e;
   color: white;
