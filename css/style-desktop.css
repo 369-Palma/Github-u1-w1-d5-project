@@ -53,7 +53,10 @@ main {
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
-.tondo img {
+#primoblocco {
+  display: inline-block;
+}
+#primoblocco .tondo img {
   height: 300px;
   width: 300px;
   margin-top: 2em;
@@ -72,14 +75,14 @@ main {
 #CEO {
   font-style: italic;
 }
-.testo div {
+#testo div {
   display: block;
   align-items: right;
   width: 50%;
   margin-bottom: 1em;
   display: inline-block;
 }
-.testo h4 {
+#testo h4 {
   line-height: 1.5em;
   font-family: "Montserrat", sans-serif;
 }
