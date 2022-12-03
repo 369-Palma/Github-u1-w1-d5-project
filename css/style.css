@@ -1,6 +1,8 @@
 /* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,200&family=Open+Sans:ital,wght@0,400;0,600;1,400&family=Poppins:wght@400;600&display=swap');
 body {
   max-width: 450px;
+  max-height: 500px;
   margin-right: auto;
   margin-left: auto;
   display: block;
@@ -85,7 +87,7 @@ h4 {
   color: white;
   text-align: center;
   padding-top: 1em;
-  padding-bottom:3em;
+  padding-bottom:4em;
   margin-top: 2em;
   width: 450px;
   height: 200px;
