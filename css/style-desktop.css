@@ -54,12 +54,12 @@ h1 {
   max-width: 1920px;
   max-height: 1366px;
 }
-
 main {
   background-color: white;
   text-align: center;
 }
-#primoblocco {
+#primoblocco .testo,
+.tondo {
   display: inline-block;
 }
 .tondo img {
@@ -142,7 +142,6 @@ h4 {
 #blocco1 img {
   height: 300px;
   width: 100%;
-  padding-right: 2em;
 }
 h2 {
   margin-bottom: 2em;
