@@ -46,7 +46,6 @@ h1 {
   background-size: cover;
 }
 .backgroundimg p{
-  
   font-family: "Montserrat", sans-serif;
 }
 .bolla img {
@@ -59,7 +58,8 @@ h1 {
 main {
   background-color: white;
   text-align: center;
-  font-family: ;
+  font-family: "Montserrat", sans-serif;
+
 }
 #testimonianza {
   font-style: italic;

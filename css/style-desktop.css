@@ -8,7 +8,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 header {
-  max-width: 450px;
+  width: 100%;
   text-align: center;
   background-color: black;
 }
@@ -45,5 +45,133 @@ h1 {
   max-height: 1366px;
 }
 .backgroundimg p {
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  background-color: white;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.tondo img {
+  height: 300px;
+  width: 300px;
+  margin-top: 2em;
+  text-align: center;
+  border-radius: 50% 51% 49% 50% / 50% 51% 49% 50%;
+}
+.secondasezione {
+  display: inline-block;
+}
+#testimonianza {
+  font-style: italic;
+}
+.nome {
+  margin-top: 2em;
+}
+#CEO {
+  font-style: italic;
+}
+.testo div {
+  display: block;
+  align-items: right;
+  width: 50%;
+  margin-bottom: 1em;
+  display: inline-block;
+}
+.testo h4 {
+  line-height: 1.5em;
+  font-family: "Montserrat", sans-serif;
+}
+h4 {
+  color: rgb(82, 161, 210);
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+
+.quadratorosso {
+  background-color: #e22d0e;
+  color: white;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 4em;
+  margin-top: 2em;
+  width: 100%;
+}
+.quadratorosso div {
+  vertical-align: middle;
+  margin-top: 2em;
+}
+.block div {
+  border-color: #dee1e3;
+  box-shadow: 1px 1px 1px 1px #dee1e3;
+  margin-top: 2rem;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-radius: 0.3px;
+  display: inline-block;
+  width: 400px;
+}
+#blocco1 div {
+  border-color: #dee1e3;
+  border-width: 1em;
+}
+.block div img {
+  width: 450px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 290px auto;
+  display: block;
+  margin-bottom: 1em;
+}
+#blocco3 img {
+  height: 300px;
+  width: 100%;
+}
+#blocco2 img {
+  height: 300px;
+  width: 100%;
+}
+#blocco1 img {
+  height: 300px;
+  width: 100%;
+  padding-right: 2em;
+}
+h2 {
+  margin-bottom: 2em;
+  font-family: "Montserrat", sans-serif;
+
+  text-align: center;
+}
+.block p {
+  margin-bottom: 1em;
+}
+footer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #25a2c3;
+  text-align: center;
+  color: white;
+  height: 350px;
+  width: 100%;
+}
+footer a {
+  color: #c8e7f0;
+}
+#contattaci {
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 1.5em;
+}
+.contatti p {
+  margin: 1em;
+}
+#linea {
+  width: 200px;
+  height: 0.5px;
+  margin-top: 2.5em;
+}
+.copyright {
+  padding-top: 3em;
+  font-style: italic;
   font-family: "Montserrat", sans-serif;
 }
