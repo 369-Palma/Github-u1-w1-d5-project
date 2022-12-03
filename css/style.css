@@ -1,13 +1,21 @@
 /* Your styles here */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,200&family=Open+Sans:ital,wght@0,400;0,600;1,400&family=Poppins:wght@400;600&display=swap');
 body {
   max-width: 450px;
-  max-height: 500px;
   margin-right: auto;
   margin-left: auto;
   display: block;
-  font-family: 'Montserrat', sans-serif; 
-  line-height:1.65em;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
 }
 header {
   max-width: 450px;
@@ -35,9 +43,8 @@ h1 {
   font-family: "Montserrat", sans-serif;
   margin-bottom: 2em;
   margin-top: 2em;
-  width:130px;
-  height:40px;
-
+  width: 130px;
+  height: 40px;
 }
 .backgroundimg {
   background-image: url(../images/banner.jpg);
@@ -45,12 +52,10 @@ h1 {
   margin-bottom: 2em;
   background-size: cover;
 }
-.backgroundimg p{
-  font-family: "Montserrat", sans-serif;
-}
+
 .bolla img {
   height: 300px;
-  width:300px;
+  width: 300px;
   margin-top: 2em;
   text-align: center;
   border-radius: 50% 51% 49% 50% / 50% 51% 49% 50%;
@@ -58,8 +63,6 @@ h1 {
 main {
   background-color: white;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
-
 }
 #testimonianza {
   font-style: italic;
@@ -70,10 +73,7 @@ main {
 #CEO {
   font-style: italic;
 }
-.primoblocco h4{
-  line-height: 1.5em;
-  font-family: 'Montserrat', sans-serif;
-}
+
 h4 {
   color: rgb(82, 161, 210);
   margin-bottom: 1em;
@@ -87,12 +87,12 @@ h4 {
   color: white;
   text-align: center;
   padding-top: 1em;
-  padding-bottom:4em;
+  padding-bottom: 4em;
   margin-top: 2em;
   width: 450px;
   height: 200px;
 }
-.quadratorosso div{
+.quadratorosso div {
   vertical-align: middle;
   margin-top: 2em;
 }
@@ -111,15 +111,13 @@ h4 {
 .block div img {
   max-width: 450px;
   margin-right: auto;
-  margin-left:width: 450px;
+  margin-left: auto;
   height: 300px auto;
   display: block;
   margin-bottom: 1em;
 }
 h2 {
   margin-bottom: 2em;
-  font-family: "Montserrat", sans-serif;
-
   text-align: center;
 }
 .block p {
@@ -131,25 +129,24 @@ footer {
   background-color: #25a2c3;
   text-align: center;
   color: white;
-  height:350px;
+  height: 350px;
+  font-family: "Montserrat", sans-serif;
 }
 footer a {
   color: #c8e7f0;
 }
 #contattaci {
-  font-family: "Montserrat", sans-serif;
   padding-bottom: 1.5em;
 }
 .contatti p {
   margin: 1em;
 }
-#linea{
-  width:200px;
+#linea {
+  width: 200px;
   height: 0.5px;
-  margin-top: 2.5em;;
+  margin-top: 2.5em;
 }
 .copyright {
   padding-top: 3em;
   font-style: italic;
-  font-family: "Montserrat", sans-serif;
 }
