@@ -5,7 +5,8 @@ body {
   margin-right: auto;
   margin-left: auto;
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif; 
+  line-height:1.65em;
 }
 header {
   max-width: 450px;
@@ -28,11 +29,14 @@ h1 {
 .bottone button {
   background-color: #e22d0e;
   color: white;
-  border-radius: 0.5em;
+  border-radius: 0.3em;
   border-color: transparent;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 2em;
   margin-top: 2em;
+  width:130px;
+  height:40px;
+
 }
 .backgroundimg {
   background-image: url(../images/banner.jpg);
@@ -41,12 +45,12 @@ h1 {
   background-size: cover;
 }
 .backgroundimg p{
-  text-size;
+  
   font-family: "Montserrat", sans-serif;
 }
 .bolla img {
-  height: 200px;
-  max-width: 50%;
+  height: 300px;
+  width:300px;
   margin-top: 2em;
   text-align: center;
   border-radius: 50% 51% 49% 50% / 50% 51% 49% 50%;
@@ -80,6 +84,12 @@ h4 {
   padding-top: 2em;
   padding-bottom: 2em;
   margin-top: 2em;
+  width: 450px;
+  height: 200px;
+}
+.quadratorosso div{
+  vertical-align: middle;
+  margin-top: 2em;
 }
 .block div {
   border-color: #dee1e3;
@@ -87,6 +97,7 @@ h4 {
   margin-top: 2rem;
   margin-bottom: 2em;
   padding-bottom: 2em;
+  border-radius: 0.3px;
 }
 #blocco1 div {
   border-color: #dee1e3;
@@ -94,10 +105,9 @@ h4 {
 }
 .block div img {
   max-width: 450px;
-  width: 350px;
-  height: 250px;
   margin-right: auto;
-  margin-left: auto;
+  margin-left:width: 450px;
+  height: 300px auto;
   display: block;
   margin-bottom: 1em;
 }
@@ -124,9 +134,13 @@ footer a {
   font-family: "Montserrat", sans-serif;
   padding-bottom: 1.5em;
 }
-font-family: "Montserrat", sans-serif;
 .contatti p {
   margin: 1em;
+}
+#linea{
+  width:200px;
+  height: 0.5px;
+  margin-top: 2.5em;;
 }
 .copyright {
   padding-top: 3em;
