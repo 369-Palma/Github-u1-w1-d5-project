@@ -1,6 +1,5 @@
 /* Your styles here */
 body {
-  margin: auto;
   max-width: 450px;
   margin-right: auto;
   margin-left: auto;
@@ -69,6 +68,10 @@ main {
 #CEO {
   font-style: italic;
 }
+.primoblocco h4{
+  line-height: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+}
 h4 {
   color: rgb(82, 161, 210);
   margin-bottom: 1em;
@@ -81,8 +84,8 @@ h4 {
   background-color: #e22d0e;
   color: white;
   text-align: center;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 1em;
+  padding-bottom:3em;
   margin-top: 2em;
   width: 450px;
   height: 200px;
@@ -126,6 +129,7 @@ footer {
   background-color: #25a2c3;
   text-align: center;
   color: white;
+  height:350px;
 }
 footer a {
   color: #c8e7f0;
