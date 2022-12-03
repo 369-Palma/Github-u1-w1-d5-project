@@ -1,3 +1,49 @@
 body {
-  max-width: ;
+  max-width: 1920px;
+  max-height: 1366px;
+  line-height: 1.65em;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  max-width: 450px;
+  text-align: center;
+  background-color: black;
+}
+.logo img {
+  max-width: 1920px;
+  max-height: 1366px;
+  margin-top: 1em;
+  vertical-align: middle;
+}
+
+h1 {
+  color: rgb(82, 161, 210);
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.bottone button {
+  background-color: #e22d0e;
+  color: white;
+  border-radius: 0.3em;
+  border-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  width: 130px;
+  height: 40px;
+}
+.backgroundimg {
+  background-image: url(../images/banner.jpg);
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-size: cover;
+  max-width: 1920px;
+  max-height: 1366px;
+}
+.backgroundimg p {
+  font-family: "Montserrat", sans-serif;
 }
