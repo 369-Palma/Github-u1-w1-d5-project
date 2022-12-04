@@ -52,27 +52,37 @@ h1 {
   background-image: url(../images/banner.jpg);
   margin-bottom: 2em;
   background-size: cover;
+  vertical-align: middle;
+  padding: 10vh;
 }
 
 #tondo img {
-  height: 300px;
-  width: 300px;
-  margin-top: 2em;
-  text-align: center;
+  width: 70%;
   border-radius: 50% 51% 49% 50% / 50% 51% 49% 50%;
+  margin-left: auto;
 }
 #tondo {
-  width: 50%;
+  width: 40%;
+  margin-left: auto;
+  vertical-align: middle;
 }
 #testo {
+  width: 40%;
+  text-align: left;
+  margin-right: auto;
+  margin-left: 3em;
   vertical-align: middle;
-  width: 50%;
 }
 .primasezione {
   vertical-align: middle;
-  display: inline-block;
+  margin: 15vh auto;
 }
-
+#testo > div {
+  margin-bottom: 2em;
+}
+#testo h4 {
+  margin-bottom: 0.3em;
+}
 main {
   background-color: white;
   text-align: center;
@@ -90,7 +100,6 @@ main {
 h4 {
   color: rgb(82, 161, 210);
   margin-bottom: 1em;
-  margin-top: 2em;
 }
 
 .sezione {
