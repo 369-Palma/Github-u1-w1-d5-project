@@ -54,13 +54,25 @@ h1 {
   background-size: cover;
 }
 
-.tondo img {
+#tondo img {
   height: 300px;
   width: 300px;
   margin-top: 2em;
   text-align: center;
   border-radius: 50% 51% 49% 50% / 50% 51% 49% 50%;
 }
+#tondo {
+  width: 50%;
+}
+#testo {
+  vertical-align: middle;
+  width: 50%;
+}
+.primasezione {
+  vertical-align: middle;
+  display: inline-block;
+}
+
 main {
   background-color: white;
   text-align: center;
@@ -81,7 +93,7 @@ h4 {
   margin-top: 2em;
 }
 
-#primoblocco {
+.sezione {
   display: inline-block;
 }
 
